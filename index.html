@@ -1,0 +1,85 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!-- Consider adding a manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="refresh" content="900">
+	<title></title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+	<!--<link rel="stylesheet" href="gridiculous.css">-->
+	<link rel="stylesheet" href="styleshit.css">
+	<link rel="stylesheet" href="TELETEXT.CSS">
+
+	<script type="text/javascript" language="JavaScript">
+<!--
+var initTeletext = function() {
+    window.setInterval(updateClock, 1000);
+    window.setTimeout(updateCounter, 100);
+}
+var addleadingspace = function(number) {
+    return (number < 10 ? " " : "") + number;
+}
+var addleadingzero = function(number) {
+    return (number < 10 ? "0" : "") + number;
+}
+var dayofweek = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+var monthname = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+var updateClock = function() {
+    var d = new Date();
+    document.getElementById("TTdate").innerHTML = dayofweek[d.getDay()] + " " + d.getDate() + " " + monthname[d.getMonth()];
+    document.getElementById("TTtime").innerHTML = addleadingzero(d.getHours()) + ":" + addleadingzero(d.getMinutes()) + ":" + addleadingzero(d.getSeconds());
+}
+var counter=100;
+var updateCounter = function() {
+    document.getElementById("TTcounter").innerHTML = counter;
+    counter +=1;
+    if (counter > 199) {
+        counter = 100;
+    }
+    if (Math.random() < 0.05) {
+        window.setTimeout(updateCounter, 1000 + Math.random()*3000);
+    } else {
+        window.setTimeout(updateCounter, 100);
+    }
+}
+window.onload = initTeletext;
+//-->
+</script>
+
+
+</head>
+<body>
+	<div id="site-container" class="grid">
+
+		<header class="row">
+			<div class="teletext c12"> </div>
+			<div class="c12 headerlogo"><span class="cyan">&#xe23c;&#xe23c;&#xe23c;&#xe23c;&#xe23c;</span><span class="yellow">&#xe220;      </span><span class="cyan">&#xe23c;&#xe23c;&#xe23c;&#xe23c;&#xe23c;</span><span class="yellow">&#xe220;     </span><span class="cyan">&#xe23c;&#xe23c;&#xe23c;&#xe23c;&#xe23c;&#xe234; </span><span class="yellow">&#xe210;  </span><span class="cyan">&#xe220;&#xe230;&#xe23c;&#xe23c;&#xe23c;&#xe23c;&#xe23c;&#xe23c;&#xe23c;&#xe23c;&#xe23c;&#xe23c;&#xe23c;&#xe23c;&#xe234;&#xe210;</span><span class="yellow">&#xe220;  </span><span class="cyan">&#xe23c;&#xe23c;&#xe23c;&#xe23c;&#xe23c;</span><span class="yellow">&#xe220;  </span><span class="cyan">&#xe220;&#xe23c;&#xe23c;&#xe23c;&#xe23c;&#xe23c;&#xe204;</span><span class="yellow">&#xe228; </span><span class="cyan">&#xe23c;&#xe23c;&#xe23c;&#xe23c;&#xe23c;</span><span class="yellow">&#xe220;       </span><span class="cyan">&#xe228;&#xe23c;&#xe23c;&#xe23c;&#xe23c;&#xe23c;&#xe23c;&#xe23c;&#xe23c;&#xe23c;&#xe23c;&#xe214;</span><span class="yellow">&#xe210;</span><span class="cyan">&#xe228;&#xe23c;&#xe23c;&#xe23c;&#xe23c;&#xe214;</span><span class="yellow">&#xe210; </span><span class="cyan">&#xe23c;&#xe234;      &#xe238;&#xe23c;&#xe23c;&#xe23c;&#xe23c;&#xe23c;&#xe23c;</span><span class="yellow">&#xe220; </span>
+<span class="yellow"></span><span class="cyan">&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;</span><span class="yellow">&#xe22a;      </span><span class="cyan">&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;</span><span class="yellow">&#xe22a;    </span><span class="cyan">&#xe23a;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe214;</span><span class="yellow">&#xe229;  </span><span class="cyan">&#xe22a;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe214;</span><span class="yellow">&#xe215; </span><span class="cyan">&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;</span><span class="yellow">&#xe22a;  </span><span class="cyan">&#xe23e;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe217;</span><span class="yellow">&#xe220;&#xe205; </span><span class="cyan">&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;</span><span class="yellow">&#xe22a;       </span><span class="cyan">&#xe22a;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe215;</span><span class="yellow">&#xe215;</span><span class="cyan">&#xe22a;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe215;</span><span class="yellow">&#xe215; </span><span class="cyan">&#xe23f;&#xe23f;&#xe23d;&#xe210;  &#xe220;&#xe23e;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;</span><span class="yellow">&#xe22a; </span>
+<span class="yellow"></span><span class="cyan">&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;</span><span class="yellow">&#xe22a;      </span><span class="cyan">&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;</span><span class="yellow">&#xe22a;   </span><span class="cyan">&#xe228;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe210;</span><span class="yellow">&#xe225; </span><span class="cyan">&#xe22a;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe207;&#xe203;</span><span class="yellow">&#xe230;&#xe230;</span><span class="cyan">&#xe202;&#xe20b;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe215;</span><span class="yellow">&#xe215; </span><span class="cyan">&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;</span><span class="yellow">&#xe22a; </span><span class="cyan">&#xe23a;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe21f; </span><span class="yellow">&#xe216;  </span><span class="cyan">&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;</span><span class="yellow">&#xe22a;       </span><span class="cyan">&#xe22a;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe215;</span><span class="yellow">&#xe20c;&#xe20c;&#xe20c;&#xe20c;&#xe20c;&#xe20c;&#xe205;</span><span class="cyan">&#xe22a;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe215;</span><span class="yellow">&#xe215; </span><span class="cyan">&#xe22f;&#xe23f;&#xe23f;&#xe23f;&#xe234;&#xe238;&#xe23f;&#xe23f;&#xe23f;&#xe21f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;</span><span class="yellow">&#xe22a; </span>
+<span class="yellow"></span><span class="cyan">&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;</span><span class="yellow">&#xe22a;      </span><span class="cyan">&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;</span><span class="yellow">&#xe22a;  </span><span class="cyan">&#xe220;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23d;</span><span class="yellow">&#xe202;&#xe214; </span><span class="cyan">&#xe23f;&#xe23f;&#xe23f;&#xe23f;</span><span class="yellow">&#xe228;&#xe203;    </span><span class="cyan">&#xe20f;&#xe20f;&#xe20f;&#xe20f;&#xe20f;&#xe205;</span><span class="yellow">&#xe215; </span><span class="cyan">&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;</span><span class="yellow">&#xe22a;</span><span class="cyan">&#xe228;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe201;</span><span class="yellow">&#xe21a;   </span><span class="cyan">&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;</span><span class="yellow">&#xe22a;       </span><span class="cyan">&#xe22a;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe215;       &#xe22a;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe215;</span><span class="yellow">&#xe215;  </span><span class="cyan">&#xe20b;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe207; &#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;</span><span class="yellow">&#xe22a; </span>
+<span class="yellow"></span><span class="cyan">&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;</span><span class="yellow">&#xe22a;  </span><span class="cyan">&#xe23e;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe235;</span><span class="yellow">&#xe20a;&#xe210;</span><span class="cyan">&#xe20a;&#xe23f;&#xe23f;&#xe23f;</span><span class="yellow">&#xe22a;     &#xe202;&#xe203;&#xe203;&#xe203;&#xe203;&#xe203;&#xe201; </span><span class="cyan">&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe205;</span><span class="yellow">&#xe228;&#xe201;   </span><span class="cyan">&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;</span><span class="yellow">&#xe228; </span><span class="cyan">&#xe22a;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe215;</span><span class="yellow">&#xe214;</span><span class="cyan">&#xe22a;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe215;</span><span class="yellow">&#xe215; &#xe202;&#xe224;</span><span class="cyan">&#xe202;&#xe22f;&#xe23f;&#xe23f;&#xe21f;&#xe201;</span><span class="yellow">&#xe218;&#xe215;</span><span class="cyan">&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;</span><span class="yellow">&#xe22a; </span>
+<span class="yellow"></span><span class="cyan">&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;</span><span class="yellow">&#xe22a; </span><span class="cyan">&#xe23a;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe214;</span><span class="yellow">&#xe229; </span><span class="cyan">&#xe22b;&#xe23f;&#xe23f;</span><span class="yellow">&#xe22a;             </span><span class="cyan">&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe210;</span><span class="yellow">&#xe22a;    </span><span class="cyan">&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;</span><span class="yellow">&#xe22a; </span><span class="cyan">&#xe22a;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe21f;&#xe20f;&#xe20f;&#xe20f;&#xe20f;&#xe20f;&#xe205;</span><span class="yellow">&#xe215;</span><span class="cyan">&#xe22a;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe215;</span><span class="yellow">&#xe215;   &#xe209;&#xe210;</span><span class="cyan">&#xe203;&#xe203;</span><span class="yellow">&#xe220;&#xe206; &#xe215;</span><span class="cyan">&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;</span><span class="yellow">&#xe22a; </span>
+<span class="yellow"></span><span class="cyan">&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;</span><span class="yellow">&#xe228;&#xe20c;&#xe20c;&#xe20c;&#xe20c;&#xe20c;&#xe20c;</span><span class="cyan">&#xe22a;&#xe23f;&#xe23f;&#xe23f;&#xe23f;</span><span class="yellow">&#xe22a; &#xe208;&#xe20c;&#xe20c;&#xe20c;&#xe20c;&#xe20c;&#xe20c;&#xe20c;&#xe204;</span><span class="cyan">&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe210;</span><span class="yellow">&#xe225; </span><span class="cyan">&#xe22f;&#xe23f;&#xe214;</span><span class="yellow">&#xe215;    </span><span class="cyan">&#xe228;&#xe23c;&#xe23c;&#xe23c;&#xe23c;&#xe23c;</span><span class="yellow">&#xe228; </span><span class="cyan">&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe203;&#xe22b;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23d; </span><span class="yellow">&#xe225;   </span><span class="cyan">&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;</span><span class="yellow">&#xe228;&#xe20c;&#xe20c;&#xe20c;&#xe20c;&#xe20c;&#xe20e; </span><span class="cyan">&#xe22a;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe215;</span><span class="yellow">&#xe217;&#xe203;&#xe203;&#xe203;&#xe203;&#xe203;&#xe201;</span><span class="cyan">&#xe22a;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe215;</span><span class="yellow">&#xe215;    &#xe202;&#xe203;&#xe203;&#xe201;  &#xe215;</span><span class="cyan">&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;</span><span class="yellow">&#xe22a; </span>
+<span class="yellow"></span><span class="cyan">&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;</span><span class="yellow">&#xe22a;      </span><span class="cyan">&#xe22a;&#xe23f;&#xe23f;&#xe23f;&#xe23f;</span><span class="yellow">&#xe22a;          </span><span class="cyan">&#xe22b;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23d;</span><span class="yellow">&#xe202;&#xe214;</span><span class="cyan">&#xe202;&#xe23f;&#xe235;</span><span class="yellow">&#xe225;    </span><span class="cyan">&#xe23a;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;</span><span class="yellow">&#xe22a; </span><span class="cyan">&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;</span><span class="yellow">&#xe22a; </span><span class="cyan">&#xe22f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe235;</span><span class="yellow">&#xe202;&#xe214;  </span><span class="cyan">&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;</span><span class="yellow">&#xe22a;       </span><span class="cyan">&#xe22a;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe215;</span><span class="yellow">&#xe215;      </span><span class="cyan">&#xe22a;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe215;</span><span class="yellow">&#xe215;          &#xe215;</span><span class="cyan">&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;</span><span class="yellow">&#xe22a; </span>
+<span class="yellow"></span><span class="cyan">&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;</span><span class="yellow">&#xe22a;      </span><span class="cyan">&#xe22a;&#xe23f;&#xe23f;&#xe23f;&#xe23f;</span><span class="yellow">&#xe22a;           </span><span class="cyan">&#xe22f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe235;</span><span class="yellow">&#xe20a;&#xe210;</span><span class="cyan">&#xe20a;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;</span><span class="yellow">&#xe22a; </span><span class="cyan">&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;</span><span class="yellow">&#xe22a; </span><span class="cyan">&#xe202;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe214;</span><span class="yellow">&#xe20a;&#xe210; </span><span class="cyan">&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;</span><span class="yellow">&#xe22a;       </span><span class="cyan">&#xe22a;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23d;&#xe23c;&#xe23c;&#xe23c;&#xe23c;&#xe23c;&#xe23c;&#xe23c;&#xe23e;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe215;</span><span class="yellow">&#xe215;          &#xe215;</span><span class="cyan">&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;</span><span class="yellow">&#xe22a; </span>
+<span class="yellow"></span><span class="cyan">&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;</span><span class="yellow">&#xe22a;      </span><span class="cyan">&#xe22a;&#xe23f;&#xe23f;&#xe23f;&#xe23f;</span><span class="yellow">&#xe22a;           </span><span class="cyan">&#xe202;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe214;</span><span class="yellow">&#xe215; </span><span class="cyan">&#xe20b;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe21f;&#xe20f;&#xe207;</span><span class="yellow">&#xe238;&#xe206; </span><span class="cyan">&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;</span><span class="yellow">&#xe22a;  </span><span class="cyan">&#xe20a;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe210;</span><span class="yellow">&#xe229; </span><span class="cyan">&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;</span><span class="yellow">&#xe22a;       </span><span class="cyan">&#xe22a;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe215;</span><span class="yellow">&#xe215;          &#xe215;</span><span class="cyan">&#xe23f;&#xe23f;&#xe23f;&#xe23f;&#xe23f;</span><span class="yellow">&#xe22a; </span>
+<span class="yellow">&#xe208;&#xe20c;&#xe20c;&#xe20c;&#xe20c;&#xe20e;       &#xe20c;&#xe20c;&#xe20c;&#xe20c;&#xe20e;            &#xe208;&#xe20c;&#xe20c;&#xe20c;&#xe20c;&#xe20c;&#xe205;  &#xe208;&#xe20c;&#xe20c;&#xe20c;&#xe20c;&#xe20c;&#xe20c;&#xe20c;&#xe20c;&#xe203;    &#xe20c;&#xe20c;&#xe20c;&#xe20c;&#xe20e;   &#xe208;&#xe20c;&#xe20c;&#xe20c;&#xe20c;&#xe20c;&#xe20e; &#xe208;&#xe20c;&#xe20c;&#xe20c;&#xe20c;&#xe20e;        &#xe20c;&#xe20c;&#xe20c;&#xe20c;&#xe20c;&#xe20c;&#xe20c;&#xe20c;&#xe20c;&#xe20c;&#xe20c;&#xe20c;&#xe20c;&#xe20c;&#xe20c;&#xe20c;&#xe20c;&#xe20c;&#xe205;          &#xe202;&#xe20c;&#xe20c;&#xe20c;&#xe20c;&#xe20c;&#xe20e; </span>
+</div>
+		</header>
+
+		<div id="site-content" role="main">
+		</div>
+
+			</div>
+			<footer class="row">
+
+			</footer>
+		</div>
+	</div>
+</body>
+</html>
